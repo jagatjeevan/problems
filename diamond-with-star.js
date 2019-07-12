@@ -45,8 +45,20 @@ var createDiamond = n => {
     console.log("Cannot create a diamond shape with just one start");
   }
 
-  getDiamondPortion(n, true);
-  let star = getStarsOfLength(n);
-  console.log(star);
-  getDiamondPortion(n, false);
+  let a = n;
+  let starArray = [];
+
+  while (a > 0) {
+    if (a === n) {
+      starArray.push(getStarsOfLength(n));
+    } else {
+      let space = appendSpace(n - a);
+      let star = getStarsOfLength(a);
+      starArray.push(space + star);
+      starArray.unshift(space + star);
+    }
+    a -= 1;
+  }
+
+  starArray.forEach(star => console.log(star));
 };
