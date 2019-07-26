@@ -15,6 +15,10 @@ var input = {
   mary: [5, 6, 10]
 };
 
+var sortNumb = arr => {
+  return arr.sort((a, b) => a - b);
+}
+
 var score = function(input) {
   var scorecard = {};
   var firstKey = "";
@@ -34,8 +38,8 @@ var score = function(input) {
     people.forEach(person => {
       scenarioArr.push(input[person][i]);
     });
-    const maxValue = scenarioArr.sort()[scenarioArr.length - 1];
-    const minValue = scenarioArr.sort()[0];
+    const maxValue = sortNumb(scenarioArr)[scenarioArr.length - 1];
+    const minValue = sortNumb(scenarioArr)[0];
     if (minValue !== maxValue) {
       people.forEach(person => {
         if (input[person][i] === maxValue) {
