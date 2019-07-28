@@ -2,7 +2,7 @@
 
 | Day | Total Problems |
 | --- | -------------- |
-| 10  | 7              |
+| 11  | 8              |
 
 ## Table of Contents
 
@@ -15,3 +15,4 @@
 | Jul 21 2019 | Sock Merchant               | [Sock merchant](./sock-merchant.js)      |
 | Jul 24 2019 | Code comparison             | [Code comparison](./code-comparison.js)  |
 | Jul 26 2019 | Jumping clouds              | [Jumping clouds](./jumping-clouds.js)    |
+| Jul 28 2019 | Sort Array                  | [Sort Array](./sort-array.js)            |
