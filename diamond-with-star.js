@@ -31,15 +31,6 @@ var appendSpace = spaces => {
   return str;
 };
 
-var getDiamondPortion = (n, isAbovePart) => {
-  for (let i = 1; i < n; i++) {
-    let str = "";
-    str += appendSpace(isAbovePart ? n - i : i);
-    str += getStarsOfLength(isAbovePart ? i : n - i);
-    console.log(str);
-  }
-};
-
 var createDiamond = n => {
   if (n < 2) {
     console.log("Cannot create a diamond shape with just one start");
