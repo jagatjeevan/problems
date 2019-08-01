@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 9              |
+| 10             |
 
 ## Table of Contents
 
@@ -17,3 +17,4 @@
 | Jul 26 2019 | Jumping clouds              | [Jumping clouds](./jumping-clouds.js)        |
 | Jul 28 2019 | Sort Array                  | [Sort Array](./sort-array.js)                |
 | Jul 31 2019 | Largest number formaed      | [Largest Number](./largest-number-formed.js) |
+| Aug 1 2019  | Format seconds              | [Format seconds](./count-seconds.js)         |
