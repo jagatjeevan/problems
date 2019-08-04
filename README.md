@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 10             |
+| 11             |
 
 ## Table of Contents
 
@@ -18,3 +18,4 @@
 | Jul 28 2019 | Sort Array                  | [Sort Array](./sort-array.js)                |
 | Jul 31 2019 | Largest number formaed      | [Largest Number](./largest-number-formed.js) |
 | Aug 1 2019  | Format seconds              | [Format seconds](./count-seconds.js)         |
+| Aug 4 2019  | Finding vowels in order     | [Finding vowels](./finding-vowels.js)        |
