@@ -1,8 +1,8 @@
 /**
  * Regular Expressions
  * 1. Find the index of first occurence in the sub-string
- *      Input : "A very very intelligent looking person is very very simple", 'very';
- *      Output : 2;
+ *      Input: "A very very intelligent looking person is very very simple", 'very';
+ *      Output: 2;
  *
  * */
 
