@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 14             |
+| 15             |
 
 ## Table of Contents
 
@@ -22,3 +22,4 @@
 | Aug 4 2019  | RegEx: replace chars        | [Replace char](./Regexp/replace-char.js)       |
 | Aug 4 2019  | RegEx: Find occurences      | [Find Occurences](./Regexp/find-occurences.js) |
 | Aug 5 2019  | RegEx: Find first occurence | [Find first occurence](./Regexp/first-find.js) |
+| Aug 5 2019  | RegEx: Extract numbers      | [Extract numbers](./Regexp/extract-number.js)  |
