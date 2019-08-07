@@ -14,6 +14,6 @@
 
 
 var vowelTest = str => {
-    const regex = /^(a|e|i|o|u).(a|e|i|o|u)$/;
+    const regex = /^(a|e|i|o|u).+(a|e|i|o|u)$/;
     return regex.test(str);
 }
