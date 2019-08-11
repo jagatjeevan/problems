@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 17             |
+| 18             |
 
 ## Table of Contents
 
@@ -25,3 +25,4 @@
 | Aug 5 2019  | RegEx: Extract numbers          | [Extract numbers](./Regexp/extract-number.js)                 |
 | Aug 11 2019 | Regex: Same vowel start and end | [Start End Same Vowel](./Regexp/start-end-with-same-vowel.js) |
 | Aug 11 2019 | Regex: Some validation          | [Some validation](./Regexp/some-validation.js)                |
+| Aug 11 2019 | Regexp: Trim String             | [Trim string](./Regexp/trim-string.js)                        |
