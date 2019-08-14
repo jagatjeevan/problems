@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 18             |
+| 19             |
 
 ## Table of Contents
 
@@ -26,3 +26,4 @@
 | Aug 11 2019 | Regex: Same vowel start and end | [Start End Same Vowel](./Regexp/start-end-with-same-vowel.js) |
 | Aug 11 2019 | Regex: Some validation          | [Some validation](./Regexp/some-validation.js)                |
 | Aug 11 2019 | Regexp: Trim String             | [Trim string](./Regexp/trim-string.js)                        |
+| Aug 14 2019 | Find perfect square number      | [Square number](./isSquareRoot.js)                            |
