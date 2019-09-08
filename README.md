@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 19             |
+| 20             |
 
 ## Table of Contents
 
@@ -27,3 +27,4 @@
 | Aug 11 2019 | Regex: Some validation          | [Some validation](./Regexp/some-validation.js)                |
 | Aug 11 2019 | Regexp: Trim String             | [Trim string](./Regexp/trim-string.js)                        |
 | Aug 14 2019 | Find perfect square number      | [Square number](./isSquareRoot.js)                            |
+| Sep 8 2019  | Find the biggest island         | [Biggest island](./biggest-island.js)                         |
