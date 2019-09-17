@@ -29,3 +29,4 @@
 | Aug 14 2019 | Find perfect square number      | [Square number](./isSquareRoot.js)                            |
 | Sep 8 2019  | Find the biggest island         | [Biggest island](./biggest-island.js)                         |
 | Sep 10 2019 | Find vowels & constants         | [Vowels & Constants](./Regexp/count-vowels.js)                |
+| Sep 17 2019 | Memoise a function              | [Memoise](./memoisation.js)                                   |
