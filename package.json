@@ -1,0 +1,26 @@
+{
+  "name": "problems",
+  "version": "1.0.0",
+  "description": "Practice Javascript problems",
+  "main": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jagatjeevan/problems.git"
+  },
+  "keywords": [],
+  "author": {
+    "email": "kanhajeevan@gmail.com",
+    "name": "Jagat Jeevan Sahoo"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagatjeevan/problems/issues"
+  },
+  "homepage": "https://github.com/jagatjeevan/problems#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
+}

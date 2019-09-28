@@ -25,3 +25,5 @@ var sortArray = input => {
   });
   return sortedArr;
 };
+
+module.exports = sortArray;

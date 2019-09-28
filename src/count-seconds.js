@@ -14,10 +14,19 @@ var formatDisplayString = string => {
   let strArr = string.trim().split(" ");
   let tmp = [...strArr];
   const tmp1 = [...tmp.splice(0, tmp.length - 1)];
-  return [...tmp1, "and", strArr[strArr.length-1]];
+  if(tmp1.length) {
+    return [...tmp1, "and", strArr[strArr.length-1]];
+  }
+  return [strArr[strArr.length-1]];
 };
 
 var formatSeconds = inputInSeconds => {
+  if(inputInSeconds === 1) {
+    return '1sec.';
+  }
+  if(inputInSeconds < 60) {
+    return `${inputInSeconds}secs.`;
+  }
   let tmp = inputInSeconds;
   const mapper = {
     31104000: "year",
@@ -65,5 +74,7 @@ var formatSeconds = inputInSeconds => {
     }
   });
   displayString += ".";
-  console.log(formatDisplayString(displayString).join(" "));
+  return formatDisplayString(displayString).join(" ");
 };
+
+module.exports = formatSeconds;
