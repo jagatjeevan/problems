@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 21             |
+| 22             |
 
 ## Table of Contents
 
@@ -30,3 +30,4 @@
 | Sep 8 2019  | Find the biggest island         | [Biggest island](./biggest-island.js)                         |
 | Sep 10 2019 | Find vowels & constants         | [Vowels & Constants](./Regexp/count-vowels.js)                |
 | Sep 17 2019 | Memoise a function              | [Memoise](./memoisation.js)                                   |
+| Sep 29 2019 | Depth of binary tree            | [Depth of binary tree](./Tree/max-depth.js)                   |
