@@ -2,12 +2,12 @@
 
 | Total Problems |
 | -------------- |
-| 22             |
+| 23             |
 
 ## Table of Contents
 
-| Date        | Problems                        | Solutions                                                     |
-| ----------- | ------------------------------- | ------------------------------------------------------------- |
+| Date        | Problems                        | Solutions                                                         |
+| ----------- | ------------------------------- | ----------------------------------------------------------------- |
 | Jul 05 2019 | Create a diamond with stars     | [Create Diamond](./src/diamond-with-star.js)                      |
 | Jul 07 2019 | Clean checkbook                 | [Checkbook](./src/checkbook.js)                                   |
 | Jul 09 2019 | Counting valleys                | [Count Valley](./src/counting-valley.js)                          |
@@ -31,3 +31,4 @@
 | Sep 10 2019 | Find vowels & constants         | [Vowels & Constants](./src/Regexp/count-vowels.js)                |
 | Sep 17 2019 | Memoise a function              | [Memoise](./src/memoisation.js)                                   |
 | Sep 29 2019 | Depth of binary tree            | [Depth of binary tree](./src/Tree/max-depth.js)                   |
+| Oct 7 2019  | Sorted array interection        | [Intersection of sorted array](./src/array-interection.js)        |
