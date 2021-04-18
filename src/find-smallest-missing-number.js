@@ -7,13 +7,17 @@
  *
  * */
 
+const uniqueValues = (arr) =>
+  arr.filter((item, i, ar) => ar.indexOf(item) === i);
+
 const getPositiveArray = (arr) => {
-  return arr.filter((item) => item > 0);
+  const uniqueArrElem = uniqueValues(arr);
+  return uniqueArrElem.filter((item) => item > 0);
 };
 
 var smallestMissingNumber = (A) => {
   const sortedArray = getPositiveArray(A).sort((a, b) => a - b);
-  
+
   if (sortedArray.length < 1) return 1;
 
   let missingNumber = null;

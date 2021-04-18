@@ -7,5 +7,6 @@ describe("find the smallest missing positive number in a given array", () => {
     expect(smallestMissingNumber(input1)).toEqual(10);
     expect(smallestMissingNumber(input2)).toEqual(6);
     expect(smallestMissingNumber([-2, -10])).toEqual(1);
+    expect(smallestMissingNumber([1, 3, 6, 4, 1, 2])).toEqual(5);
   });
 });
