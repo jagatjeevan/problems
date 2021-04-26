@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 26             |
+| 27             |
 
 ## Table of Contents
 
@@ -34,3 +34,4 @@
 | Oct 7 2019    | Sorted array interection               | [Intersection of sorted array](./src/array-interection.js)        |
 | April 18 2021 | Smallest missing number in an array    | [Smallest missing number](./src/find-smallest-missing-number.js)  |
 | April 21 2021 | Getting a profit from the stock market | [Maximum profit from stocks](./src/maxStockProfit.js)             |
+| April 26 2021 | Implement queue in javascript          | [Queue](./src/LinkedList/queue.js)                                |

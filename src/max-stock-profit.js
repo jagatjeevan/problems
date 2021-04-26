@@ -23,20 +23,20 @@ var maxStockProfit = (stockValues) => {
 };
 
 // This has a time complexity of O(n)^2
-var maxStockProfit1 = (stockValues) => {
-  let maxProfit = 0;
-  for (let i = 0; i <= stockValues.length; i++) {
-    for (let j = i + 1; j < stockValues.length; j++) {
-      if (stockValues[j] > stockValues[i]) {
-        maxProfit =
-          maxProfit < stockValues[j] - stockValues[i]
-            ? stockValues[j] - stockValues[i]
-            : maxProfit;
-      }
-    }
-  }
+// var maxStockProfit1 = (stockValues) => {
+//   let maxProfit = 0;
+//   for (let i = 0; i <= stockValues.length; i++) {
+//     for (let j = i + 1; j < stockValues.length; j++) {
+//       if (stockValues[j] > stockValues[i]) {
+//         maxProfit =
+//           maxProfit < stockValues[j] - stockValues[i]
+//             ? stockValues[j] - stockValues[i]
+//             : maxProfit;
+//       }
+//     }
+//   }
 
-  return maxProfit;
-};
+//   return maxProfit;
+// };
 
 module.exports = maxStockProfit;

@@ -4,7 +4,9 @@
   "description": "Practice Javascript problems",
   "main": "",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --collect-coverage",
+    "open-coverage": "open ./coverage/lcov-report/index.html"
   },
   "repository": {
     "type": "git",
