@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 27             |
+| 28             |
 
 ## Table of Contents
 
@@ -35,3 +35,4 @@
 | April 18 2021 | Smallest missing number in an array    | [Smallest missing number](./src/find-smallest-missing-number.js)  |
 | April 21 2021 | Getting a profit from the stock market | [Maximum profit from stocks](./src/maxStockProfit.js)             |
 | April 26 2021 | Implement queue in javascript          | [Queue](./src/LinkedList/queue.js)                                |
+| May 10 2021   | Doubly Linked list                     | [Douly linked list](./src/LinkedList/double_linked-list.js)       |
