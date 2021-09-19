@@ -19,7 +19,7 @@ var maxStockProfit = (stockValues) => {
     maxProfit = Math.max(maxProfit, potentialProfit);
     minPrice = Math.min(currentPrice, minPrice);
   }
-  return maxProfit;
+  return maxProfit > 0 ? maxProfit : 0;
 };
 
 // This has a time complexity of O(n)^2
