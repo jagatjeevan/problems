@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/jagatjeevan/problems#readme",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^27.2.0"
   }
 }
