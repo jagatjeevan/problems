@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 29             |
+| 30             |
 
 ## Table of Contents
 
@@ -37,3 +37,4 @@
 | April 26 2021 | Implement queue in javascript          | [Queue](./src/LinkedList/queue.js)                                |
 | May 10 2021   | Doubly Linked list                     | [Douly linked list](./src/LinkedList/double_linked-list.js)       |
 | Sep 20 2021   | Find next big number in series         | [Next Big No. in series](./src/find-next-greater-number.js)       |
+| Sep 21 2021   | Extract from name string               | [Extract Name](./src/validate-name.js)                            |
