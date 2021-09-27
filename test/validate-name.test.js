@@ -76,11 +76,7 @@ describe("handles positive scenarios", () => {
 
   test("happy scenario : more words less than 25 chars each", () => {
     var name2 = "MANDAVA VEERA VENKATESHWARA CHALLAPATHIRAO AAIYER IYER";
-    expect(validateName(name2)).toEqual({
-      first: "MANDAVA VEERA",
-      middle: "VENKATESHWARA AAIYER",
-      last: "CHALLAPATHIRAO IYER",
-    });
+    expect(validateName(name2)).toEqual("No valid name");
   });
 
   test("More words with one more than 25 chars", () => {

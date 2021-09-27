@@ -16,10 +16,15 @@ function getNameSegment(str, index) {
   const wordCount = str.split(" ");
   let extra = "";
   let nameSeg = "";
+  let shouldPutInExtra = false;
   for (let i = 0; i <= wordCount.length - index; i++) {
-    if (parseInt((nameSeg + wordCount[i]).length, 10) < maxCharInNameSeg - 1) {
+    if (
+      !shouldPutInExtra &&
+      parseInt((nameSeg + wordCount[i]).length, 10) < maxCharInNameSeg - 1
+    ) {
       nameSeg = nameSeg === "" ? wordCount[i] : `${nameSeg} ${wordCount[i]}`;
     } else {
+      shouldPutInExtra = true;
       extra = extra === "" ? wordCount[i] : `${extra} ${wordCount[i]}`;
     }
   }
