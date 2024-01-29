@@ -2,7 +2,7 @@
 
 | Total Problems |
 | -------------- |
-| 31             |
+| 32             |
 
 ## Table of Contents
 
@@ -35,7 +35,8 @@
 | April 18 2021 | Smallest missing number in an array    | [Smallest missing number](./src/find-smallest-missing-number.js)  |
 | April 21 2021 | Getting a profit from the stock market | [Maximum profit from stocks](./src/maxStockProfit.js)             |
 | April 26 2021 | Implement queue in javascript          | [Queue](./src/LinkedList/queue.js)                                |
-| May 10 2021   | Doubly Linked list                     | [Douly linked list](./src/LinkedList/double_linked-list.js)       |
+| May 10 2021   | Doubly Linked list                     | [Doubly linked list](./src/LinkedList/double_linked-list.js)       |
 | Sep 20 2021   | Find next big number in series         | [Next Big No. in series](./src/find-next-greater-number.js)       |
 | Sep 21 2021   | Extract from name string               | [Extract Name](./src/validate-name.js)                            |
 | Jul 13 2023   | Angle formed by clock hands            | [Angle from clock hands](./src/angle-between-clock-hand.js)       |
+| Jan 29 2024   | Pig Latin encoding                     | [Pig Latin encoding](./src/pig-latin.js)                          |

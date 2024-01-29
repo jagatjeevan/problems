@@ -6,4 +6,5 @@ test("Greater Angle formed between clock hands", () => {
   expect(getAngle(2, 12)).toEqual(300);
   expect(getAngle(2, 6)).toEqual(105);
   expect(getAngle(6, 10)).toEqual(95);
+  expect(getAngle(3, 6)).toEqual(75);
 });
